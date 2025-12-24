@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ido Bar Shmuel - About Me</title>
+    <style>
+        :root {
+            --primary-blue: #0077be;
+            --football-green: #2ecc71;
+            --text-dark: #333;
+            --light-bg: #f4f7f6;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--light-bg);
+            color: var(--text-dark);
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        h2 {
+            color: var(--primary-blue);
+            border-bottom: 2px solid #eee;
+            padding-bottom: 0.5rem;
+        }
+
+        .hobby-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        .hobby-item {
+            background: #f9f9f9;
+            padding: 1rem;
+            border-left: 4px solid var(--primary-blue);
+            border-radius: 4px;
+        }
+
+        .travel-section {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .travel-img, .football-img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-top: 1rem;
+        }
+
+        .dream-box {
+            background: var(--football-green);
+            color: white;
+            padding: 2rem;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .dream-box h2 {
+            color: white;
+            border-bottom: 2px solid rgba(255,255,255,0.3);
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            font-size: 0.9rem;
+            color: #777;
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: var(--primary-blue);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        [span_0](start_span)<h1>Writing About Myself[span_0](end_span)</h1>
+        <p>Presenter: <span class="highlight">Ido Bar Shmuel</span> | [span_1](start_span)8th Grade[span_1](end_span)</p>
+    </header>
+
+    <div class="container">
+        
+        <section class="card">
+            [span_2](start_span)<h2>Details About Me[span_2](end_span)</h2>
+            [span_3](start_span)<p>I have <span class="highlight">one brother and one sister</span>.[span_3](end_span)</p>
+            [span_4](start_span)<p>I play football for <span class="highlight">Maccabi Jaffa Kabilio</span>.[span_4](end_span)</p>
+        </section>
+
+        <section class="card">
+            [span_5](start_span)<h2>My Hobbies[span_5](end_span)</h2>
+            [span_6](start_span)<p>In my free time, I like to play football, talk to my friends, and play on the PlayStation.[span_6](end_span)</p>
+            <div class="hobby-grid">
+                <div class="hobby-item">
+                    [span_7](start_span)<strong>Football:</strong> It is very important to me because it helps my body stay strong and healthy.[span_7](end_span)
+                </div>
+                <div class="hobby-item">
+                    [span_8](start_span)<strong>Friends:</strong> I enjoy talking with them because it makes me feel happy and relaxed.[span_8](end_span)
+                </div>
+                <div class="hobby-item">
+                    [span_9](start_span)<strong>PlayStation:</strong> It is fun and helps me rest after a long day.[span_9](end_span)
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            [span_10](start_span)<h2>My Trip to Thailand[span_10](end_span)</h2>
+            <div class="travel-section">
+                [span_11](start_span)<p>This year I traveled to Thailand, where I visited <strong>Phuket, Koh Samui, Koh Phangan, and Koh Phi Phi</strong>.[span_11](end_span)</p>
+                [span_12](start_span)<p>During my trip, I enjoyed the beaches, the warm weather, and the local culture.[span_12](end_span) [span_13](start_span)Traveling to Thailand was a special experience for me and helped me learn about new places and people.[span_13](end_span)</p>
+                <img src="beach.jpg" alt="Thailand Beaches" class="travel-img">
+            </div>
+        </section>
+
+        <section class="dream-box">
+            [span_14](start_span)<h2>My Dream[span_14](end_span)</h2>
+            [span_15](start_span)<p>My dream is to become a <strong>professional football player</strong>.[span_15](end_span)</p>
+            <p>I practice every day to get better and stronger. Football makes me happy and gives me motivation. [span_16](start_span)I hope to play for a big club in the future.[span_16](end_span)</p>
+            <img src="football.jpg" alt="Football Dream" class="football-img">
+        </section>
+
+    </div>
+
+    <footer>
+        &copy; 2024 Ido Bar Shmuel - School Project
+    </footer>
+
+</body>
+</html>
